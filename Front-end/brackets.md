@@ -1,6 +1,19 @@
 # Brackets
-Adobe에서 만든 오픈 소스 에디터.
 
-HTML, CSS 그리고 Javascript에 최적화 되어 있으며,
+[Brackets](http://brackets.io/) is open source editor from Adobe.
+Written in HTML, CSS and Javascript using [CodeMirror](http://codemirror.net/) in a Node.js container.
 
-[CodeMirror](http://codemirror.net/)를 이용한 라이브 코딩 지원 (Chrome Browesr 필요)
+* [Download Brackets 1.2 for OS X](https://github.com/adobe/brackets/releases/download/release-1.2%2Beb4/Brackets.1.2.Extract.dmg)
+
+## Key Features
+* Live browser preview
+* Inline CSS editing (Ctrl/Cmd+E)
+* A [well-documented open API](http://brackets.io/docs/current/) for plugin developers
+* Built-in package manager
+* Nested color picker
+* Image previewer
+* Support new version on every 2-3 weeks
+* Less emphasis on server-side languages
+
+## Reference
+http://www.sitepoint.com/sitepoint-smackdown-atom-vs-brackets-vs-light-table-vs-sublime-text/
