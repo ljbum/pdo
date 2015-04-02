@@ -15,5 +15,11 @@ Written in HTML, CSS and Javascript using [CodeMirror](http://codemirror.net/) i
 * Support new version on every 2-3 weeks
 * Less emphasis on server-side languages
 
+## First Impression
+* Live browser preview doesn't work on initial example
+* Provides better experince than [LiveReload](http://livereload.com/)
+* Fine PSD read function
+* Confused on indention with base theme (spaces? tabs?)
+
 ## Reference
 http://www.sitepoint.com/sitepoint-smackdown-atom-vs-brackets-vs-light-table-vs-sublime-text/
