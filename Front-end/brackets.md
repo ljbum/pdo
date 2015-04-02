@@ -21,6 +21,10 @@ Written in HTML, CSS and Javascript using [CodeMirror](http://codemirror.net/) i
 * Fine PSD read function
 * Confused on indention with base theme (spaces? tabs?)
 * If Chrome Dev Tool is opened, it will cancel live preview (quite annoying)
+* NOT AUTO-REFRESH on Javascript changes
+
+## Alternative Way
+* [LiveReload Free Download](http://feedback.livereload.com/knowledgebase/articles/67441-how-do-i-start-using-livereload)
 
 ## Reference
 http://www.sitepoint.com/sitepoint-smackdown-atom-vs-brackets-vs-light-table-vs-sublime-text/
