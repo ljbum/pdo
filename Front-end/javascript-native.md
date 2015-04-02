@@ -1,12 +1,12 @@
 #### addEventListner vs onclick
 * addEventListner: over IE 9, more than one event to an element
-* [ref: stackoverflow](http://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick)
+* [Ref: stackoverflow](http://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick)
 ```
 var element = document.getElementById('');
 element.attachEvent('onclick', function() {})
 element.addEventListner('click', function() {}, false)
 ```
-* without using jQuery
+* without using jQuery to support old browsers
 ```
 function addEvent(element, evnt, funct){
   if (element.attachEvent)
