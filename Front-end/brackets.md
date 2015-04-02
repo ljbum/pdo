@@ -20,6 +20,7 @@ Written in HTML, CSS and Javascript using [CodeMirror](http://codemirror.net/) i
 * Provides better experince than [LiveReload](http://livereload.com/)
 * Fine PSD read function
 * Confused on indention with base theme (spaces? tabs?)
+* If Chrome Dev Tool is opened, it cancels live preview (quite annoying)
 
 ## Reference
 http://www.sitepoint.com/sitepoint-smackdown-atom-vs-brackets-vs-light-table-vs-sublime-text/
