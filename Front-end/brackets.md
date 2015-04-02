@@ -24,7 +24,7 @@ Written in HTML, CSS and Javascript using [CodeMirror](http://codemirror.net/) i
 * NOT AUTO-REFRESH on Javascript changes
 
 ## Alternative Way
-* [LiveReload Official Free Download](http://feedback.livereload.com/knowledgebase/articles/67441-how-do-i-start-using-livereload)
+* [LiveReload 2.3.66 Official Free Download](http://feedback.livereload.com/knowledgebase/articles/67441-how-do-i-start-using-livereload)
 
 ## Reference
 http://www.sitepoint.com/sitepoint-smackdown-atom-vs-brackets-vs-light-table-vs-sublime-text/
