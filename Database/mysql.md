@@ -10,7 +10,7 @@
 
 <br/>
 
-Example: Node.js-[Koa](http://koajs.com/) with using [node-mysql/felixge](https://github.com/felixge/node-mysql/)
+Example: Node.js-[Koa](http://koajs.com/) module with using [node-mysql/felixge](https://github.com/felixge/node-mysql/)
 ```
 var mysql = require('mysql');
 var thunkify = require('thunkify');
