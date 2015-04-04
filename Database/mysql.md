@@ -5,7 +5,7 @@
 * The object, connectionPool, check the status and manage the numbers of connection.
 * Pros:
   * Save time on creating connection. (reusability)
-  * Almost same as create new connection
+  * Almost same as creating new connection
   * Manage system resource effectively
 
 <br/>
