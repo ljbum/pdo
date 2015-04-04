@@ -4,7 +4,7 @@
 * By using the object which can manage the connection, it brings the connection to single thread and return when the work is done.
 * The object, connectionPool, check the status and manage the numbers of connection.
 * Pros:
-  * Save time on creating connection. (reuseability)
+  * Save time on creating connection. (reusability)
   * Almost same as create new connection
   * Manage system resource effectively
 
