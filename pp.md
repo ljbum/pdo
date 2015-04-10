@@ -7,7 +7,7 @@
 * Node.js backend admin to
   * monitor messaging
   * manage users
-  * manage tags (approval)
+  * manage tags (approval?)
 
 ## Web server-client
 * /home
