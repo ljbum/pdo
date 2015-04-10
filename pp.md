@@ -9,6 +9,6 @@
 * /home
 * /profile
 * /message
-* /tags/태그이름 >> category(tag) landing
+* /tags/:tagname >> category(tag) landing
 * /:username
  
