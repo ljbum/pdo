@@ -8,6 +8,9 @@
   * monitor messaging
   * manage users
   * manage tags (approval?)
+* Internal batch worker to
+  * send email on notification
+* API server for future usage
 
 ## Web server-client
 * /home
