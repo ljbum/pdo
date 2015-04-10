@@ -12,7 +12,8 @@
 ## Web server-client
 * /home
 * /profile
-* /message
+* /message >> message landing
+* /message/:messageId >> read message
 * /tags/:tagname >> category(tag) landing
-* /:username
+* /:username (/:userId)
  
