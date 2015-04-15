@@ -5,8 +5,8 @@
 ## Target
 * Server-client
 * Pre-message matching worker
-  * active user
-  * message cycle (fresh, old)
+  * active user collector
+  * message(fresh, old) collector for cycling
   * user-message matching
 * Search engine for [#] autocomplete
 * Mailer worker
