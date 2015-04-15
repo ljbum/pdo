@@ -36,6 +36,11 @@
   * matching worker
   * server-client session (separated database)
 
+## Project/Instances
+* [project]
+* [project]Worker (+mailer)
+* [project]Admin
+
 # Step 2
 ## Schedule
 ## Target
