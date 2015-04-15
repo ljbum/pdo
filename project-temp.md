@@ -1,4 +1,6 @@
 # Step 1
+## General
+* project name = edge
 ## Schedule
 * 15th ~ 27th Apr
 
