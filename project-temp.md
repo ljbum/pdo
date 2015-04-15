@@ -26,6 +26,7 @@
 * 4.24 :: alpha test
 
 ## Env
+* Ubuntu 14.04 LTS
 * Node.js(v0.12.0) - koa application for
   * server-client
   * worker(instance)
