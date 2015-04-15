@@ -27,10 +27,14 @@
 * Node.js(v0.12.0) - koa application for
   * server-client
   * worker(instance)
-    * message worker
+    * matching worker
     * mailer
   * backend admin
-  * 
+* elasticsearch server (inside instance)
+* MySQL 5.6
+* Redis for
+  * matching worker
+  * server-client session (separated database)
 
 # Step 2
 ## Schedule
