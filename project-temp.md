@@ -23,6 +23,15 @@
 * :: setup backend admin (2~3 days)
 * 4.24 :: alpha test
 
+## Env
+* Node.js(v0.12.0) - koa application for
+  * server-client
+  * worker(instance)
+    * message worker
+    * mailer
+  * backend admin
+  * 
+
 # Step 2
 ## Schedule
 ## Target
