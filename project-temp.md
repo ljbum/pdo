@@ -9,6 +9,11 @@
   * message cycle (fresh, old)
   * user-message matching
 * Search engine for [#] autocomplete
+* Mailer worker
+* Backend admin
+  * watching message flow
+  * approve [#] requests
+  * manage users
 
 # Step 2
 ## Schedule
