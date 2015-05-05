@@ -5,4 +5,9 @@
 autoload -U colors && colors
 PS1="%{$fg[red]%}%n%{$reset_color%}@%{$fg[blue]%}%m %{$fg[yellow]%}%~ %{$reset_color%}%% "
 ```
+* My setting
+```
+autoload -U colors && colors
+export PS1="%{$fg[blue]%}%. %{$reset_color%}%% "
+```
 * Ref: [zsh prompt](http://www.nparikh.org/unix/prompt.php)
