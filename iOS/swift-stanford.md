@@ -1,4 +1,4 @@
-## Lecture 8 View Controller Lifecycle, Autolayout
+# Lecture 8 View Controller Lifecycle, Autolayout
 
 ### Common Lifecycle
 * viewDidLoad()
@@ -28,3 +28,15 @@
 ### awakeFromNib
 * sent to all object from storyboard 
 
+----
+
+
+## Size Classes
+
+* Regular
+* Compact
+* Any
+
+## xcode-autolayout
+* update frames
+* preview(right-panel)
