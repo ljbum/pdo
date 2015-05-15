@@ -1,5 +1,6 @@
 ## Lecture 8 View Controller Lifecycle, Autolayout
 
+### Common Lifecycle
 * viewDidLoad()
     * all of outlets are set   
     * but geometry is not set yet
@@ -10,6 +11,13 @@
     * cleanup code
     * not to do time-cunsuming here
 * viewDidDisappear()
-----
 * viewWillLayoutSubviews() / viewDidLayoutSubviews()
     * autolayout will happen between here
+
+----
+
+### Autorotation
+* viewWillTransitionTosize(size: CGSize, withTransitionCoordinator: UIViewControllerTransitionCoordinator)
+
+----
+
