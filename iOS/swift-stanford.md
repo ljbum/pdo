@@ -11,6 +11,10 @@
     * cleanup code
     * not to do time-cunsuming here
 * viewDidDisappear()
+
+----
+
+### geometry changed
 * viewWillLayoutSubviews() / viewDidLayoutSubviews()
     * autolayout will happen between here
 
@@ -20,4 +24,7 @@
 * viewWillTransitionTosize(size: CGSize, withTransitionCoordinator: UIViewControllerTransitionCoordinator)
 
 ----
+
+### awakeFromNib
+* sent to all object from storyboard 
 
