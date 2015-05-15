@@ -2,4 +2,4 @@
 
 * viewDidLoad() {}
     * all of outlets are set   
-    * but geometry is not set yet 
+    * but geometry is not set yet
