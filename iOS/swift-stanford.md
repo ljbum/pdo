@@ -40,3 +40,5 @@
 ## xcode-autolayout
 * update frames
 * preview(right-panel)
+* always care about magic-number
+    * if not necessary : put 0 or Standard
