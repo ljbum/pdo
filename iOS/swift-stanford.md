@@ -10,6 +10,6 @@
     * cleanup code
     * not to do time-cunsuming here
 * viewDidDisappear()
-
-* viewWillLayoutSubviews()
-* viewDidLayoutSubviews()
+----
+* viewWillLayoutSubviews() / viewDidLayoutSubviews()
+    * autolayout will happen between here
