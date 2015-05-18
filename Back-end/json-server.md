@@ -1,5 +1,6 @@
 # JSON Server
 
+## Setup
 * [https://github.com/typicode/json-server](https://github.com/typicode/json-server)
 
 ```
@@ -18,5 +19,5 @@ vi db.json
 npm install -g json-server
 json-server --watch db.json
 ```
-
+## Access
 * http://hostname:3000/posts/1
