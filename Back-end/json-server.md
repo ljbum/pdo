@@ -3,10 +3,8 @@
 * [https://github.com/typicode/json-server](https://github.com/typicode/json-server)
 
 ```
-# Src
-vi db.json
-
 # Insert this block
+vi db.json
 {
   "posts": [
     { "id": 1, "title": "json-server", "author": "typicode" }
