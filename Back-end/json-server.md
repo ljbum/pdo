@@ -18,3 +18,5 @@ vi db.json
 npm install -g json-server
 json-server --watch db.json
 ```
+
+* http://hostname:3000/posts/1
