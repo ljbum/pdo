@@ -8,14 +8,15 @@
 * Resource Server: API itself
 * Resource Owner: User, giving access to their account
 
-#### - Client specific information
+#### Authorization
 * Redirect URIs
 * Client ID
 * Client Secret
-  * not used in Javascript or Native apps
+  * not used in Javascript or Native apps (in some cases)
 
-#### - Mobile Apps Authorization
+##### - GrantType: Password
 * [grant_type: password] is used to exchange for access_token in third-party apps (custom client)
+
 ```
 POST https://oauthServer/token
 grant_type=password&
@@ -23,7 +24,18 @@ uesrname=USERNAME&
 password=PASSWORD&
 client_id=CLIENT_ID
 ```
+
 * The client secret is not included under assumption that secret will not be protected
+
+##### - GrantType: Client_credentials
+* If applications need a way to get access token outside the context of any specific user, grant_type: client_credentials are provided
+
+```
+POST https://oauthServer/token
+grant_type=client_credentials&
+client_id=CLIENT_ID&
+client_secret=CLIENT_SECRET
+```
 
 ### Token storing: NSUserDefaults vs Keychain
 
