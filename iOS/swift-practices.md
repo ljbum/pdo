@@ -7,6 +7,8 @@
 * Client: Third-party application
 * Resource Server: API itself
 * Resource Owner: User, giving access to their account
+* Authorization Server
+  * the server issuing access tokens to the client after successfully authenticating the resource owner and obtaining authorization 
 
 #### Authorization
 * Redirect URIs
@@ -35,6 +37,14 @@ POST https://oauthServer/token
 grant_type=client_credentials&
 client_id=CLIENT_ID&
 client_secret=CLIENT_SECRET
+```
+
+#### Making Authenticated Requests
+* with an access_token, you can make requests to the API
+
+```
+curl -H "Authorization: Bearer ACCESS_TOKEN" \
+https://oauthServer/example/api/path
 ```
 
 ### Token storing: NSUserDefaults vs Keychain
