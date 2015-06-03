@@ -1,6 +1,5 @@
 # Swift Practice
 ## OAuth2 Client
-* [OAuth2 Framework RFC](http://tools.ietf.org/html/rfc6749)
 * http://oauth.net/documentation/
 
 ### OAuth2 Simplified
@@ -46,6 +45,33 @@ client_secret=CLIENT_SECRET
 curl -H "Authorization: Bearer ACCESS_TOKEN" \
 https://oauthServer/example/api/path
 ```
+
+### OAuth2 RFC
+* [OAuth2 Framework RFC](http://tools.ietf.org/html/rfc6749)
+
+```
+     +--------+                               +---------------+
+     |        |--(A)- Authorization Request ->|   Resource    |
+     |        |                               |     Owner     |
+     |        |<-(B)-- Authorization Grant ---|               |
+     |        |                               +---------------+
+     |        |
+     |        |                               +---------------+
+     |        |--(C)-- Authorization Grant -->| Authorization |
+     | Client |                               |     Server    |
+     |        |<-(D)----- Access Token -------|               |
+     |        |                               +---------------+
+     |        |
+     |        |                               +---------------+
+     |        |--(E)----- Access Token ------>|    Resource   |
+     |        |                               |     Server    |
+     |        |<-(F)--- Protected Resource ---|               |
+     +--------+                               +---------------+
+
+                     Figure 1: Abstract Protocol Flow
+```
+
+
 
 ### Token storing: NSUserDefaults vs Keychain
 
