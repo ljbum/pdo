@@ -14,6 +14,7 @@ is defined by what that subnet's default route is, in the VPC routing tables
 * It's not the IG but receive traffic by VPC from private machines by replacing source IP address on the packet with its own public IP address
 * [AWS Documentation](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/VPC_NAT_Instance.html)
 * [Joinc Docs](http://www.joinc.co.kr/modules/moniwiki/wiki.php/Site/cloud/AWS/VPCManagement)
+* [Blog: NAT CloudFormation](http://mrbluecoat.blogspot.kr/2014/11/aws-cloudformation-template-for-vpc.html)
 * NAT SecurityGroup
     * Allow inboud traffic only from private (10.0.1.0/16)
     * Allow all outbound traffic
