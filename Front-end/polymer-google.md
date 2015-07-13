@@ -2,3 +2,5 @@
 * Google I/O 2015 Extended Seoul (2015.07.12, 세종대) 에서 처음 접함
 
 ## What is Polymer?
+* [Reference](https://www.polymer-project.org/1.0/docs/start/what-is-polymer.html)
+* 
